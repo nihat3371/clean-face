@@ -1,0 +1,32 @@
+export const analysisHistory = [
+  {
+    id: 1,
+    date: "2024-01-15",
+    time: "14:30",
+    skinType: "Karma Cilt",
+    mainIssues: ["Akne", "Kızarıklık"],
+    recommendedProduct: "Niacinamide 10% + Zinc 1%",
+    confidence: 92,
+    image: "/niacinamide.jpg",
+  },
+  {
+    id: 2,
+    date: "2024-01-10",
+    time: "09:15",
+    skinType: "Yağlı Cilt",
+    mainIssues: ["Gözenek", "Parlaklık"],
+    recommendedProduct: "Salicylic Acid Cleanser",
+    confidence: 88,
+    image: "/salicylic-cleanser.jpg",
+  },
+  {
+    id: 3,
+    date: "2024-01-08",
+    time: "16:45",
+    skinType: "Kuru Cilt",
+    mainIssues: ["Kuruluk", "İnce Çizgiler"],
+    recommendedProduct: "Moisturizing Lotion",
+    confidence: 95,
+    image: "/moisturizing-lotion.png",
+  },
+];
